@@ -1,0 +1,168 @@
+/* General Page Style */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00aaff;
+}
+
+
+/* Home Page */
+
+.home {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.home h1 {
+    font-size: 40px;
+}
+
+
+/* Directors */
+
+.directors {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.director-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.director {
+    background-color: rgb(67, 146, 100);
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #aaa;
+}
+
+.director img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* Services */
+
+.services {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: rgb(133, 129, 129);
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #aaa;
+}
+
+
+/* Contacts */
+
+.contacts {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-info {
+    background-color: rgb(156, 150, 150);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+
+/* Contact Form */
+
+form {
+    background-color: rgb(145, 138, 138);
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 120px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00aaff;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
